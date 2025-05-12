@@ -1,5 +1,5 @@
 # Igor Stadnyk
-Founder of [Brainer](https://x.com/OGBrainer)) and transitional CEO of [AirDAO](https://x.com/airdao_io), working at the intersection of AI and Web3 infrastructure.
+Founder of [Brainer](https://x.com/OGBrainer) and transitional CEO of [AirDAO](https://x.com/airdao_io), working at the intersection of AI and Web3 infrastructure.
 ## Current Focus
 ### Brainer
 Building an AI-powered co-pilot for personal branding that helps creators stay consistent without burnout. Turning your ideas into content that sounds like you while keeping you visible and part of the conversation.
