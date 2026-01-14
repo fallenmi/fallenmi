@@ -7,7 +7,7 @@ Co-founder & AI Lead of [TrueAI|Trading Co-pilot](https://x.com/truetradingai) a
 
 <sub>AI systems · Web3 infrastructure · On-chain execution</sub>
 
-### True Trading (TrueTradingAI)
+### True Trading (TrueAI)
 Building **AI-native trading infrastructure**.
 - Native AI agents for on-chain trading
 - Focus on execution logic, risk systems, and transparency
