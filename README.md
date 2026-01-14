@@ -1,12 +1,30 @@
 # Igor Stadnyk
-Founder of [Brainer](https://x.com/OGBrainer) and transitional CEO of [AirDAO](https://x.com/ascendianetwork), working at the intersection of AI and Web3 infrastructure.
+Co-founder & AI Lead of [TrueAI|Trading Co-pilot](https://x.com/truetradingai) and Founding Partner, AI of [INC4](https://x.com/INC_4), building at the intersection of AI, trading, and Web3 infrastructure.
+![AI](https://img.shields.io/badge/AI-Autonomous%20Agents-blue)
+![Trading](https://img.shields.io/badge/Focus-On--chain%20Trading-green)
+![Web3](https://img.shields.io/badge/Web3-Infrastructure-black)
+
 ## Current Focus
-### Brainer
-Building an AI-powered co-pilot for personal branding that helps creators stay consistent without burnout. Turning your ideas into content that sounds like you while keeping you visible and part of the conversation.
-### AirDAO
-Leading AirDAO's transition into an AI-native L1 blockchain, focusing on long-term vision and strategic direction.
+### True Trading (TrueTradingAI)
+Building **AI-native trading infrastructure**.
+- Native AI agents for on-chain trading
+- Focus on execution logic, risk systems, and transparency
+- Turning AI from analysis tools into **decision + action systems**
+
+Trading is the entry point.  
+The long-term goal is **trustable autonomous systems** for financial markets.
+
+### Web3 & Infrastructure
+Building and using foundational infrastructure for AI-driven on-chain systems.
+- Reliable infra for AI agents operating on-chain
+- Performance, availability, and composability
+- Infrastructure designed for **real-time autonomous execution**
+
 ## My Vision
-Make social media simple and accessible. Help creators maintain visibility by staying on top of industry trends. Innovate at the intersection of AI and Web3 to solve real problems for real people.
+- Build products that make complex systems usable  
+- Turn intelligence into **real, on-chain outcomes**  
+- Help AI and Web3 create real value, not just narratives
+   
 ## Connect With Me
 - [Twitter](https://x.com/AIgorStadnyk)
 - [LinkedIn](https://www.linkedin.com/in/stadnykigor/)
