@@ -1,13 +1,12 @@
 # Igor Stadnyk
 Co-founder & AI Lead of [TrueAI|Trading Co-pilot](https://x.com/truetradingai) and Founding Partner, AI of [INC4](https://x.com/INC_4), building at the intersection of AI, trading, and Web3 infrastructure.
 
-![AI](https://img.shields.io/badge/AI-blue)
-![Web3](https://img.shields.io/badge/Web3-blue)
-![On-chain](https://img.shields.io/badge/On--chain-blue)
+![AI](https://img.shields.io/badge/AI-4c6ef5)
+![Web3](https://img.shields.io/badge/Web3-495057)
+![On-chain](https://img.shields.io/badge/On--chain-74b816)
 
-_AI systems · Web3 infrastructure · On-chain execution_
+<sub>AI systems · Web3 infrastructure · On-chain execution</sub>
 
-## Current Focus
 ### True Trading (TrueTradingAI)
 Building **AI-native trading infrastructure**.
 - Native AI agents for on-chain trading
