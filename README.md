@@ -15,10 +15,11 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 - [`open-rmf/rmf_ros2#543`](https://github.com/open-rmf/rmf_ros2/pull/543) — fixed the phase key used to publish skip requests.
 - [`pylessard/python-can-isotp#160`](https://github.com/pylessard/python-can-isotp/pull/160) — handled reserved STmin values according to ISO 15765-2.
+- [`fsspec/filesystem_spec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102) — kept live block-cache instances usable after pickling.
 
 ### Current contribution work
 
-- AI/data reliability and compilation: [`joblib/joblib#1840`](https://github.com/joblib/joblib/pull/1840), [`fsspec/filesystem_spec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102), [`apache/tvm#20141`](https://github.com/apache/tvm/pull/20141)
+- AI/data reliability and compilation: [`joblib/joblib#1840`](https://github.com/joblib/joblib/pull/1840), [`apache/tvm#20141`](https://github.com/apache/tvm/pull/20141)
 - Geospatial I/O: [`geopandas/pyogrio#693`](https://github.com/geopandas/pyogrio/pull/693)
 - Robotics and 3D geometry: [`PointCloudLibrary/pcl#6464`](https://github.com/PointCloudLibrary/pcl/pull/6464), [`PointCloudLibrary/pcl#6465`](https://github.com/PointCloudLibrary/pcl/pull/6465), [`BehaviorTree/BehaviorTree.CPP#1191`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1191), [`isl-org/Open3D#7536`](https://github.com/isl-org/Open3D/pull/7536)
 
