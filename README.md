@@ -19,6 +19,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 ### Current contribution work
 
 - AI/data reliability: [`joblib/joblib#1840`](https://github.com/joblib/joblib/pull/1840), [`fsspec/filesystem_spec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102)
+- Geospatial I/O: [`geopandas/pyogrio#693`](https://github.com/geopandas/pyogrio/pull/693)
 - Robotics and 3D geometry: [`PointCloudLibrary/pcl#6464`](https://github.com/PointCloudLibrary/pcl/pull/6464), [`PointCloudLibrary/pcl#6465`](https://github.com/PointCloudLibrary/pcl/pull/6465), [`BehaviorTree/BehaviorTree.CPP#1191`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1191)
 
 <sub>These items are open and under upstream review; they are not listed as merged contributions.</sub>
