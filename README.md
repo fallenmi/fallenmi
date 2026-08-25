@@ -5,7 +5,23 @@ Co-founder & AI Lead of [TrueAI|Trading Co-pilot](https://x.com/truetradingai) a
 ![Web3](https://img.shields.io/badge/Web3-495057)
 ![On-chain](https://img.shields.io/badge/On--chain-74b816)
 
-<sub>AI systems · Web3 infrastructure · On-chain execution</sub>
+<sub>Robotics · Embedded & field communications · Geospatial systems · AI/data reliability · Web3 infrastructure</sub>
+
+## Open Source
+
+I work on focused reliability fixes across robotics, embedded and field communications, geospatial systems, and AI/data tooling.
+
+### Merged upstream
+
+- [`open-rmf/rmf_ros2#543`](https://github.com/open-rmf/rmf_ros2/pull/543) — fixed the phase key used to publish skip requests.
+- [`pylessard/python-can-isotp#160`](https://github.com/pylessard/python-can-isotp/pull/160) — handled reserved STmin values according to ISO 15765-2.
+
+### Current contribution work
+
+- AI/data reliability: [`joblib/joblib#1840`](https://github.com/joblib/joblib/pull/1840), [`fsspec/filesystem_spec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102)
+- Robotics and 3D geometry: [`PointCloudLibrary/pcl#6464`](https://github.com/PointCloudLibrary/pcl/pull/6464), [`PointCloudLibrary/pcl#6465`](https://github.com/PointCloudLibrary/pcl/pull/6465), [`BehaviorTree/BehaviorTree.CPP#1191`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1191)
+
+<sub>These items are open and under upstream review; they are not listed as merged contributions.</sub>
 
 ### True Trading (TrueAI)
 Building **AI-native trading infrastructure**.
