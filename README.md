@@ -28,6 +28,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
+- [`python-lz4#334`](https://github.com/python-lz4/python-lz4/pull/334) — requested changes at exact head `3f85fd8` after proving that both `METH_NOARGS` callbacks retained one-parameter signatures that are undefined behavior under CPython and fail Clang's strict function-type check; the PR remains open and unmerged.
 - [`msgspec#1124`](https://github.com/msgspec/msgspec/pull/1124) — approved exact head `58ae07b` after base RED, 50 schema-decoder cases, full unit suites, and current-main integration; the PR remains open and unmerged.
 - [`uber-go/zap#1569`](https://github.com/uber-go/zap/pull/1569) — approved exact head `814a458` after reproducing the base panic, repeated focused regression checks, and the full Go suite; the PR remains open and unmerged.
 - [`google/go-cmp#402`](https://github.com/google/go-cmp/pull/402) — approved exact head `b455d2a` after base RED, 729 valid-ordering cases repeated 20×, and the full Go suite; the PR remains open and unmerged.
