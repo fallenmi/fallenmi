@@ -25,6 +25,11 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 <sub>These items are open and under upstream review; they are not listed as merged contributions.</sub>
 
+### Upstream review
+
+- [`BehaviorTree.CPP#1186`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1186) — approved the integer-width preservation fix after checking its dispatch boundary and regression coverage.
+- [`pyogrio#691`](https://github.com/geopandas/pyogrio/pull/691) and [`cantools#830`](https://github.com/cantools/cantools/pull/830) — reproduced merge-blocking error-handling regressions and submitted concrete `CHANGES_REQUESTED` reviews.
+
 ### True Trading (TrueAI)
 Building **AI-native trading infrastructure**.
 - Native AI agents for on-chain trading
