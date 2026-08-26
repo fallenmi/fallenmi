@@ -32,6 +32,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 - [`BehaviorTree.CPP#1192`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1192) — reproduced a root-blackboard remap crash and approved the exact-head fix after a local RED/GREEN check.
 - [`fsspec#2106`](https://github.com/fsspec/filesystem_spec/pull/2106) — reproduced async deletion beyond `maxdepth` and approved the exact-head boundary fix after the full async target passed.
 - [`fsspec#2103`](https://github.com/fsspec/filesystem_spec/pull/2103) — reproduced an archive member escaping the requested local destination and approved the exact-head containment guard after current-master integration tests.
+- [`fsspec#2101`](https://github.com/fsspec/filesystem_spec/pull/2101) — proved that the async `filecache` range path still redownloaded the full object because successful downloads never entered the metadata cache.
 - [`AnyIO#1294`](https://github.com/agronholm/anyio/pull/1294) — found that the first OS-refused datagram still completed successfully while the new backpressure only blocked the following send.
 - [`ImageIO#1203`](https://github.com/imageio/imageio/pull/1203) — caught a broad exception handler that hid invariant and plugin failures from the project's image fuzzer.
 - [`Shapely#2465`](https://github.com/shapely/shapely/pull/2465) — found a pickle/deepcopy precision-restoration path that erased pointwise-collapsed line geometry instead of preserving its coordinates.
