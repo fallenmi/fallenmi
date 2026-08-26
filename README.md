@@ -28,8 +28,9 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
-<sub>GitHub records 42 pull-request review contributions in August 2026.</sub>
+<sub>GitHub records 44 pull-request review contributions in August 2026.</sub>
 
+- [`PCRE2#963`](https://github.com/PCRE2Project/pcre2/pull/963) — approved exact head `4a9498d` after base/head negated-glob corruption RED/GREEN across 8-, 16-, and 32-bit libraries plus 32 green checks; [`AprilTag#433`](https://github.com/AprilRobotics/apriltag/pull/433) — requested changes at exact head `3385174` after `min_cluster_pixels=250` deterministically dropped a valid detection on one and four threads. Both PRs remain open and unmerged.
 - [`GEOS#1505`](https://github.com/libgeos/geos/pull/1505) — requested changes at exact head `9cfff20` after an integer point/line counterexample returned `covers=true` despite positive distance; [`libuv#5243`](https://github.com/libuv/libuv/pull/5243) — approved exact head `d2150fb` after base/head ICMP error-sign RED/GREEN plus Linux, macOS, and Windows test gates. Both PRs remain open and unmerged.
 - [`libspatialindex#303`](https://github.com/libspatialindex/libspatialindex/pull/303) and [`fmt#4892`](https://github.com/fmtlib/fmt/pull/4892) — requested changes at exact heads `d9905ec` and `ee0b93c`: finite aggregate margins can still overflow into the sentinel-index BUS crash, while the formatter head fails GCC 13 shadow and clang-format 21 gates; both PRs remain open and unmerged.
 - [`OctoMap#449`](https://github.com/OctoMap/octomap/pull/449) — approved exact head `1d619b7` after an embedded-build base RED/head GREEN oracle, explicit-Debug and standalone controls, focused unit execution, and 6/6 live checks; the PR remains open and unmerged.
