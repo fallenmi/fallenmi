@@ -28,8 +28,9 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
-<sub>GitHub records 44 pull-request review contributions in August 2026.</sub>
+<sub>GitHub records 46 pull-request review contributions in August 2026.</sub>
 
+- [`Jansson#700`](https://github.com/akheron/jansson/pull/700) — approved exact head `0e3b06d` after an exact base/head GCC warning RED/GREEN oracle and 213/213 CTest; [`mavlink-router#492`](https://github.com/mavlink-router/mavlink-router/pull/492) — approved exact head `4c76135` after a Clang ASan/UBSan base stack-buffer-overflow and exact-head 2/2 GREEN oracle. Both PRs remain open and unmerged.
 - [`PCRE2#963`](https://github.com/PCRE2Project/pcre2/pull/963) — approved exact head `4a9498d` after base/head negated-glob corruption RED/GREEN across 8-, 16-, and 32-bit libraries plus 32 green checks; [`AprilTag#433`](https://github.com/AprilRobotics/apriltag/pull/433) — requested changes at exact head `3385174` after `min_cluster_pixels=250` deterministically dropped a valid detection on one and four threads. Both PRs remain open and unmerged.
 - [`GEOS#1505`](https://github.com/libgeos/geos/pull/1505) — requested changes at exact head `9cfff20` after an integer point/line counterexample returned `covers=true` despite positive distance; [`libuv#5243`](https://github.com/libuv/libuv/pull/5243) — approved exact head `d2150fb` after base/head ICMP error-sign RED/GREEN plus Linux, macOS, and Windows test gates. Both PRs remain open and unmerged.
 - [`libspatialindex#303`](https://github.com/libspatialindex/libspatialindex/pull/303) and [`fmt#4892`](https://github.com/fmtlib/fmt/pull/4892) — requested changes at exact heads `d9905ec` and `ee0b93c`: finite aggregate margins can still overflow into the sentinel-index BUS crash, while the formatter head fails GCC 13 shadow and clang-format 21 gates; both PRs remain open and unmerged.
