@@ -28,8 +28,9 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
-<sub>GitHub records 38 pull-request review contributions in August 2026.</sub>
+<sub>GitHub records 40 pull-request review contributions in August 2026.</sub>
 
+- [`libspatialindex#303`](https://github.com/libspatialindex/libspatialindex/pull/303) and [`fmt#4892`](https://github.com/fmtlib/fmt/pull/4892) — requested changes at exact heads `d9905ec` and `ee0b93c`: finite aggregate margins can still overflow into the sentinel-index BUS crash, while the formatter head fails GCC 13 shadow and clang-format 21 gates; both PRs remain open and unmerged.
 - [`OctoMap#449`](https://github.com/OctoMap/octomap/pull/449) — approved exact head `1d619b7` after an embedded-build base RED/head GREEN oracle, explicit-Debug and standalone controls, focused unit execution, and 6/6 live checks; the PR remains open and unmerged.
 - [`httpcore#1096`](https://github.com/encode/httpcore/pull/1096) — approved exact head `0890100` after reproducing the documented stream-iteration contract mismatch on base/current `master`, then validating 100 exact-head matches plus focused tests, Ruff, mypy, and 7/7 live checks; the PR remains open and unmerged.
 - [`lz4#1789`](https://github.com/lz4/lz4/pull/1789) and [`lz4#1777`](https://github.com/lz4/lz4/pull/1777) — approved exact heads `2432c6b` and `f18a372` after ASan reproduced an invalid-block allocation overflow and frame/legacy multi-file suffix overflows on base; both heads reject or safely round-trip the failing inputs under sanitizer and focused test gates, and both PRs remain open and unmerged.
