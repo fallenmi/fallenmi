@@ -28,6 +28,8 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
+- [`google/go-cmp#402`](https://github.com/google/go-cmp/pull/402) — approved exact head `b455d2a` after base RED, 729 valid-ordering cases repeated 20×, and the full Go suite; the PR remains open and unmerged.
+- [`python-lz4#333`](https://github.com/python-lz4/python-lz4/pull/333) — requested changes at exact head `b1979d5` after tracing a failure-path exception-class reference leak in both C extension modules despite 36 green checks; the PR remains open and unmerged.
 - [`aiofiles#226`](https://github.com/Tinche/aiofiles/pull/226) — approved exact-head async iteration and context-manager support for `scandir` after base RED, head GREEN, and 222 passing project tests.
 - [`BehaviorTree.CPP#1185`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1185) — approved a trace-write clamp after an exact-base ASan oracle reproduced an out-of-bounds read on long event names.
 - [`BehaviorTree.CPP#1186`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1186) — approved the integer-width preservation fix after checking its dispatch boundary and regression coverage.
