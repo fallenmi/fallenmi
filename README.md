@@ -28,6 +28,8 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
+- [`fmt#4895`](https://github.com/fmtlib/fmt/pull/4895) — approved exact head `7449a2b` after reproducing incorrect default alignment for nonfinite values on base/current main and passing a seven-case oracle plus 139 format tests; the PR remains open and unmerged.
+- [`fsspec#2097`](https://github.com/fsspec/filesystem_spec/pull/2097) and [`lz4#1788`](https://github.com/lz4/lz4/pull/1788) — requested changes at exact heads `4544763` and `a06d8a1`: a missing cache lookup creates a ghost LRU entry that evicts valid values, while late frame-parameter validation mutates an active compression context after returning an error; both PRs remain open and unmerged.
 - [`python-lz4#334`](https://github.com/python-lz4/python-lz4/pull/334) — requested changes at exact head `3f85fd8` after proving that both `METH_NOARGS` callbacks retained one-parameter signatures that are undefined behavior under CPython and fail Clang's strict function-type check; the PR remains open and unmerged.
 - [`msgspec#1124`](https://github.com/msgspec/msgspec/pull/1124) — approved exact head `58ae07b` after base RED, 50 schema-decoder cases, full unit suites, and current-main integration; the PR remains open and unmerged.
 - [`uber-go/zap#1569`](https://github.com/uber-go/zap/pull/1569) — approved exact head `814a458` after reproducing the base panic, repeated focused regression checks, and the full Go suite; the PR remains open and unmerged.
