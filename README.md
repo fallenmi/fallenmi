@@ -33,6 +33,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 - [`ImageIO#1203`](https://github.com/imageio/imageio/pull/1203) — caught a broad exception handler that hid invariant and plugin failures from the project's image fuzzer.
 - [`Shapely#2465`](https://github.com/shapely/shapely/pull/2465) — found a pickle/deepcopy precision-restoration path that erased pointwise-collapsed line geometry instead of preserving its coordinates.
 - [`pydicom#2337`](https://github.com/pydicom/pydicom/pull/2337) — found that an unknown-VR error translation also mislabeled documented extension-hook failures as malformed DICOM input.
+- [`pyserial#868`](https://github.com/pyserial/pyserial/pull/868) — found that narrowed RFC 2217 exception handling leaked an allocated socket and reader thread when an interrupt aborted port reconfiguration.
 - [`msgspec#1164`](https://github.com/msgspec/msgspec/pull/1164) — found that a metaclass-selection fix bypassed custom construction hooks and their documented struct configuration.
 - [`nats.py#1007`](https://github.com/nats-io/nats.py/pull/1007) — found a supported token-only credential form left exposed by a log-redaction patch and requested a focused regression.
 - [`OpenTAKServer#362`](https://github.com/brian7704/OpenTAKServer/pull/362) — caught a syntax failure and locale mappings to unavailable catalogs before merge.
