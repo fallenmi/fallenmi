@@ -30,6 +30,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 - [`BehaviorTree.CPP#1186`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1186) — approved the integer-width preservation fix after checking its dispatch boundary and regression coverage.
 - [`BehaviorTree.CPP#1192`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1192) — reproduced a root-blackboard remap crash and approved the exact-head fix after a local RED/GREEN check.
 - [`fsspec#2106`](https://github.com/fsspec/filesystem_spec/pull/2106) — reproduced async deletion beyond `maxdepth` and approved the exact-head boundary fix after the full async target passed.
+- [`nats.py#1007`](https://github.com/nats-io/nats.py/pull/1007) — found a supported token-only credential form left exposed by a log-redaction patch and requested a focused regression.
 - [`pyogrio#691`](https://github.com/geopandas/pyogrio/pull/691), [`cantools#830`](https://github.com/cantools/cantools/pull/830), and [`OpenTAKServer#349`](https://github.com/brian7704/OpenTAKServer/pull/349) — reproduced merge-blocking error-handling and shared-state regressions and submitted concrete `CHANGES_REQUESTED` reviews.
 
 ### True Trading (TrueAI)
