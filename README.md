@@ -30,6 +30,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 - [`BehaviorTree.CPP#1186`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1186) — approved the integer-width preservation fix after checking its dispatch boundary and regression coverage.
 - [`BehaviorTree.CPP#1192`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1192) — reproduced a root-blackboard remap crash and approved the exact-head fix after a local RED/GREEN check.
 - [`fsspec#2106`](https://github.com/fsspec/filesystem_spec/pull/2106) — reproduced async deletion beyond `maxdepth` and approved the exact-head boundary fix after the full async target passed.
+- [`AnyIO#1294`](https://github.com/agronholm/anyio/pull/1294) — found that the first OS-refused datagram still completed successfully while the new backpressure only blocked the following send.
 - [`ImageIO#1203`](https://github.com/imageio/imageio/pull/1203) — caught a broad exception handler that hid invariant and plugin failures from the project's image fuzzer.
 - [`Shapely#2465`](https://github.com/shapely/shapely/pull/2465) — found a pickle/deepcopy precision-restoration path that erased pointwise-collapsed line geometry instead of preserving its coordinates.
 - [`PyVista#8957`](https://github.com/pyvista/pyvista/pull/8957) — found that malformed negative legacy cell counts could trap the new diagnostic parser in a non-progress loop instead of raising.
