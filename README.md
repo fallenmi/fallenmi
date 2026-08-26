@@ -27,6 +27,7 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
+- [`BehaviorTree.CPP#1185`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1185) — approved a trace-write clamp after an exact-base ASan oracle reproduced an out-of-bounds read on long event names.
 - [`BehaviorTree.CPP#1186`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1186) — approved the integer-width preservation fix after checking its dispatch boundary and regression coverage.
 - [`BehaviorTree.CPP#1192`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1192) — reproduced a root-blackboard remap crash and approved the exact-head fix after a local RED/GREEN check.
 - [`fsspec#2106`](https://github.com/fsspec/filesystem_spec/pull/2106) — reproduced async deletion beyond `maxdepth` and approved the exact-head boundary fix after the full async target passed.
