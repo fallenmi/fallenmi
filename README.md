@@ -28,8 +28,9 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
-<sub>GitHub records 47 pull-request review contributions in August 2026.</sub>
+<sub>GitHub records 49 pull-request review contributions in August 2026.</sub>
 
+- [`BehaviorTree.CPP#1181`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1181) — requested changes at exact head `2e934c7` after the public `AnyPtrLocked` size change triggered an ASan stack-buffer-overflow in a base-header/head-library client; [`postcard#303`](https://github.com/jamesmunns/postcard/pull/303) — requested changes at exact head `512b680` after numeric keys 2 and 10 round-tripped with reordered wire bytes in both dyn variants. Both PRs remain open and unmerged.
 - [`segmentio/encoding#167`](https://github.com/segmentio/encoding/pull/167) — approved exact head `52c82d2` after an exact-base RED/exact-head GREEN duration error-type oracle and a full `go test ./...` pass; the PR remains open and unmerged.
 - [`Jansson#700`](https://github.com/akheron/jansson/pull/700) — approved exact head `0e3b06d` after an exact base/head GCC warning RED/GREEN oracle and 213/213 CTest; [`mavlink-router#492`](https://github.com/mavlink-router/mavlink-router/pull/492) — approved exact head `4c76135` after a Clang ASan/UBSan base stack-buffer-overflow and exact-head 2/2 GREEN oracle. Both PRs remain open and unmerged.
 - [`PCRE2#963`](https://github.com/PCRE2Project/pcre2/pull/963) — approved exact head `4a9498d` after base/head negated-glob corruption RED/GREEN across 8-, 16-, and 32-bit libraries plus 32 green checks; [`AprilTag#433`](https://github.com/AprilRobotics/apriltag/pull/433) — requested changes at exact head `3385174` after `min_cluster_pixels=250` deterministically dropped a valid detection on one and four threads. Both PRs remain open and unmerged.
