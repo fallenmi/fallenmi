@@ -28,8 +28,9 @@ I work on focused reliability fixes across robotics, embedded and field communic
 
 ### Upstream review
 
-<sub>GitHub records 49 pull-request review contributions in August 2026.</sub>
+<sub>GitHub records 50 pull-request review contributions in August 2026.</sub>
 
+- [`rstar#239`](https://github.com/georust/rstar/pull/239) — approved exact head `32367e5` after an identical public-API oracle panicked on exact base and passed on head, plus 963 dimension-size cases, 52 unit tests, and 27 documentation tests; the PR remains open and unmerged.
 - [`BehaviorTree.CPP#1181`](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1181) — requested changes at exact head `2e934c7` after the public `AnyPtrLocked` size change triggered an ASan stack-buffer-overflow in a base-header/head-library client; [`postcard#303`](https://github.com/jamesmunns/postcard/pull/303) — requested changes at exact head `512b680` after numeric keys 2 and 10 round-tripped with reordered wire bytes in both dyn variants. Both PRs remain open and unmerged.
 - [`segmentio/encoding#167`](https://github.com/segmentio/encoding/pull/167) — approved exact head `52c82d2` after an exact-base RED/exact-head GREEN duration error-type oracle and a full `go test ./...` pass; the PR remains open and unmerged.
 - [`Jansson#700`](https://github.com/akheron/jansson/pull/700) — approved exact head `0e3b06d` after an exact base/head GCC warning RED/GREEN oracle and 213/213 CTest; [`mavlink-router#492`](https://github.com/mavlink-router/mavlink-router/pull/492) — approved exact head `4c76135` after a Clang ASan/UBSan base stack-buffer-overflow and exact-head 2/2 GREEN oracle. Both PRs remain open and unmerged.
