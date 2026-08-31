@@ -20,8 +20,6 @@ Eight upstream contributions have merged:
 - [`PCL#6464`](https://github.com/PointCloudLibrary/pcl/pull/6464), [`PCL#6465`](https://github.com/PointCloudLibrary/pcl/pull/6465), and [`Kornia#3982`](https://github.com/kornia/kornia/pull/3982)
 - [`fsspec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102) and [`python-can-isotp#160`](https://github.com/pylessard/python-can-isotp/pull/160)
 
-<sub>GitHub recorded 50 pull-request review contributions in August 2026.</sub>
-
 ## Connect
 
 - [LinkedIn](https://www.linkedin.com/in/stadnykigor/)
