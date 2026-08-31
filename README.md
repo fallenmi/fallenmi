@@ -14,11 +14,12 @@ My own companies, my own capital, my own teams. I do not sell hours and I do not
 
 ## Selected public proof of work
 
-Eight upstream contributions have merged:
+Merged upstream fixes:
 
-- [`Aerostack2#987`](https://github.com/aerostack2/aerostack2/pull/987), [`ROS image_pipeline#1197`](https://github.com/ros-perception/image_pipeline/pull/1197), and [`Open-RMF#543`](https://github.com/open-rmf/rmf_ros2/pull/543)
-- [`PCL#6464`](https://github.com/PointCloudLibrary/pcl/pull/6464), [`PCL#6465`](https://github.com/PointCloudLibrary/pcl/pull/6465), and [`Kornia#3982`](https://github.com/kornia/kornia/pull/3982)
-- [`fsspec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102) and [`python-can-isotp#160`](https://github.com/pylessard/python-can-isotp/pull/160)
+- [`PointCloudLibrary/pcl#6464`](https://github.com/PointCloudLibrary/pcl/pull/6464) — supported PLY output for polygons with more than 255 vertices; [`#6465`](https://github.com/PointCloudLibrary/pcl/pull/6465) — rejected out-of-grid voxel coordinates before they could alias valid cells.
+- [`kornia/kornia#3982`](https://github.com/kornia/kornia/pull/3982) — contributed the fix preserving dtype when converting quaternions to rotation matrices.
+- [`fsspec/filesystem_spec#2102`](https://github.com/fsspec/filesystem_spec/pull/2102) — kept block caches usable after pickling.
+- [`pylessard/python-can-isotp#160`](https://github.com/pylessard/python-can-isotp/pull/160) — handled reserved STmin values per ISO 15765-2.
 
 ## Connect
 
