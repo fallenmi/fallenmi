@@ -24,14 +24,14 @@ I work across code, teams, and capital — and stay accountable for what ships.
 
 Merged upstream contributions:
 
-- [Apache TVM #20141](https://github.com/apache/tvm/pull/20141) — preserved 64-bit allocation extents in LLVM code generation.
-- [msgspec #1159](https://github.com/msgspec/msgspec/pull/1159) — fixed JSON Schema metadata for dictionary keys.
-- [ffn #386](https://github.com/pmorissette/ffn/pull/386) — corrected daily risk-free price interval alignment.
-- [BehaviorTree.CPP #1191](https://github.com/BehaviorTree/BehaviorTree.CPP/pull/1191) — fixed logical NOT for string-backed boolean values.
-- [PCL #6464](https://github.com/PointCloudLibrary/pcl/pull/6464) / [#6465](https://github.com/PointCloudLibrary/pcl/pull/6465) — supported large PLY polygons and rejected out-of-grid voxel coordinates.
-- [Kornia #3982](https://github.com/kornia/kornia/pull/3982) — preserved dtype in quaternion-to-rotation-matrix conversion.
-- [fsspec #2102](https://github.com/fsspec/filesystem_spec/pull/2102) — kept block caches usable after pickling.
-- [python-can-isotp #160](https://github.com/pylessard/python-can-isotp/pull/160) — handled reserved STmin values per ISO 15765-2.
+- [Apache TVM #20141](https://github.com/apache/tvm/pull/20141) — kept 64-bit stack-allocation extents in LLVM CPU code generation, preventing wrapped undersized allocations.
+- [Kornia #3982](https://github.com/kornia/kornia/pull/3982) — preserved float16/bfloat16 dtype in unbatched quaternion-to-rotation-matrix conversion.
+- [PCL #6464](https://github.com/PointCloudLibrary/pcl/pull/6464) / [#6465](https://github.com/PointCloudLibrary/pcl/pull/6465) — fixed PLY export for polygons over 255 vertices and rejected out-of-grid voxel coordinates.
+- [ESPHome #20992](https://github.com/esphome/esphome/pull/20992) — let the TF-Luna LiDAR driver recover from transient I²C failures after a factory reset instead of failing permanently.
+- [gprMax #914](https://github.com/gprMax/gprMax/pull/914) — stopped the bundled-examples utility from misreporting caller errors as missing resources.
+- [ffn #386](https://github.com/pmorissette/ffn/pull/386) — aligned daily risk-free price returns with the asset's observed intervals for Sharpe and Sortino ratios.
+
+_Prepared with AI coding agents (OpenAI Codex and/or Claude Code); each pull request documents its exact AI use._
 
 ## Connect
 
