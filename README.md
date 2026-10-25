@@ -28,7 +28,7 @@ Merged upstream contributions:
 - [Kornia #3982](https://github.com/kornia/kornia/pull/3982) — preserved float16/bfloat16 dtype in unbatched quaternion-to-rotation-matrix conversion.
 - [PCL #6464](https://github.com/PointCloudLibrary/pcl/pull/6464) / [#6465](https://github.com/PointCloudLibrary/pcl/pull/6465) — fixed PLY export for polygons over 255 vertices and rejected out-of-grid voxel coordinates.
 - [ESPHome #20992](https://github.com/esphome/esphome/pull/20992) — let the TF-Luna LiDAR driver recover from transient I²C failures after a factory reset instead of failing permanently.
-- [gprMax #932](https://github.com/gprMax/gprMax/pull/932) — rejected explicit averaging for perfect conductors in material databases and exported them as non-averagable, keeping generated entries loadable.
+- [gprMax #932](https://github.com/gprMax/gprMax/pull/932) / [#934](https://github.com/gprMax/gprMax/pull/934) — rejected explicit averaging for perfect conductors in material databases and exported them as non-averagable, keeping generated entries loadable; centered fractal volume and surface filters on the actual FFT DC position, removing a half-cell spectral offset for odd extents and a spurious distance on single-cell axes.
 - [PyTAK #123](https://github.com/snstac/pytak/pull/123) — migrated a locally valid legacy TAK certificate cache once to the host/port/user key when the server fingerprint is readable, leaving legacy files untouched.
 - [ffn #386](https://github.com/pmorissette/ffn/pull/386) — aligned daily risk-free price returns with the asset's observed intervals for Sharpe and Sortino ratios.
 
